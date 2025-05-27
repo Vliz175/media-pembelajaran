@@ -154,6 +154,10 @@ section#content .content a .img img {
   height: 12rem;
   width: 12rem;
 }
+section#content .content p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
 
 /** footer */
 footer {

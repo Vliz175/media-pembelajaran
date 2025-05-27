@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) {
+  /** navbar */
+  nav .logo .img img {
+    width: 4rem;
+  }
+  nav .logo p {
+    font-size: 1rem;
+  }
+  nav .burger {
+    margin-right: 8%;
+  }
+  nav .burger #burger {
+    scale: 1.2;
+  }
+
+  section#nav .menu {
+    width: 70vw;
+  }
+  section#nav .menu .close {
+    margin-right: 2rem;
+  }
+
+  /** banner hero  */
+  section#hero .greeting h1 {
+    font-size: 3rem;
+  }
+  section#hero .scroll {
+    font-size: 0.8rem;
+  }
+}

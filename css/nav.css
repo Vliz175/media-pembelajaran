@@ -105,16 +105,34 @@ section#nav .menu #close {
   transform: translatex(100%);
 }
 
-/** pendahuluan */
-#pendahuluan .judul {
-  width: 100vw;
-  height: 40vh;
-  background-color: rgba(0, 0, 0, 0.35);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/*? Tablet view  */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /** navbar */
+  section#nav .menu {
+    width: 50vw;
+  }
 }
-#pendahuluan .container {
-  background-color: #fff;
-  min-height: 100vh;
+
+/*? Mobile view  */
+@media screen and (max-width: 576px) {
+  /** navbar */
+  nav .logo .img img {
+    width: 4rem;
+  }
+  nav .logo p {
+    font-size: 1rem;
+  }
+  nav .burger {
+    margin-right: 8%;
+  }
+  nav .burger #burger {
+    scale: 1.2;
+  }
+
+  section#nav .menu {
+    width: 70vw;
+  }
+  section#nav .menu .close {
+    margin-right: 2rem;
+  }
 }

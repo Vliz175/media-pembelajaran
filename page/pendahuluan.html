@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    ;
+    <link rel="stylesheet" href="../css/nav.css" />
     <link rel="stylesheet" href="../css/pendahuluan.css" />
     <title>Pendahuluan</title>
   </head>
@@ -59,16 +59,16 @@
             <a href="../index.html">Home</a>
           </li>
           <li>
-            <a href="#">Pendahuluan</a>
+            <a href="pendahuluan.html">Pendahuluan</a>
           </li>
           <li>
-            <a href="inovasi.html">Sistem Perpindahan Panas yang terajadi</a>
+            <a href="inovasi.html">Sistem Perpindahan Panas</a>
           </li>
           <li>
             <a href="simulasi.html">Simulasi</a>
           </li>
           <li>
-            <a href="pengertian.html">Pengertian dan Fungsi Setiap Komponen</a>
+            <a href="pengertian.html">Pengertian dan Fungsi Komponen</a>
           </li>
           <li>
             <a href="hasil.html">Hasil</a>
@@ -80,5 +80,34 @@
       </div>
     </section>
     <!-- end of navbar -->
+
+    <section id="pendahuluan">
+      <div class="judul">
+        <h1>Pendahuluan</h1>
+      </div>
+
+      <div class="container">
+        <p>
+          Kesulitan dalam mengelola panas CPU menjadi lebih rumit, karena
+          komponen elektronik menjadi lebih kecil dan lebih canggih. Karena
+          keterbatasan kapasitas perpindahan panas dan efisiensi ruang, sistem
+          pendingin udara konvensional mulai kehilangan sebagian efektivitasnya.
+          Meskipun pendingin cair telah terbukti lebih efektif, masih ada
+          masalah dengan efisiensi sistem, konfigurasi fluida kerja, dan
+          kemungkinan kegagalan atau kebocoran sistem, dalam sistem pendingin
+          immersion single-phase, serta meningkatkan kecepatan aliran pendingin
+          cair dapat meningkatkan distribusi panas dan menurunkan suhu CPU
+          secara drastis (Cheng et al. 2020). Jika dibandingkan dengan pendingin
+          udara, sistem pendingin imersi dua fase dapat meningkatkan performa
+          CPU sebesar 51% (Ramakrishnan dkk. 2021).
+        </p>
+      </div>
+    </section>
   </body>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../js/index.js"></script>
+  <script>
+    AOS.init({});
+  </script>
 </html>

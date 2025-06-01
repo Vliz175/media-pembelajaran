@@ -70,6 +70,7 @@ section#content .content p {
   /** banner hero  */
   section#hero .greeting h1 {
     font-size: 4rem;
+    text-align: center;
   }
 }
 
@@ -78,6 +79,7 @@ section#content .content p {
   /** banner hero  */
   section#hero .greeting h1 {
     font-size: 2rem;
+    text-align: center;
   }
   section#hero .scroll {
     font-size: 0.8rem;

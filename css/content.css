@@ -1,0 +1,99 @@
+/** pendahuluan */
+#pendahuluan .judul {
+  width: 100vw;
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pendahuluan .judul h1 {
+  margin-top: 3rem;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/** content */
+#pendahuluan .container {
+  background-color: #fff;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#pendahuluan .container .content {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#pendahuluan .container .content h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+#pendahuluan .container .content p {
+  font-size: 1.5rem;
+  text-align: justify;
+  /* margin-bottom: 3rem; */
+}
+#pendahuluan .container .content .article {
+  margin-bottom: 3rem;
+}
+#pendahuluan .container .content .article .list-title {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+#pendahuluan .container .content .article .img {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/** navigation */
+#pendahuluan .next-back {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+#pendahuluan .next-back a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+.hidden {
+  opacity: 0;
+}
+
+@media screen and (max-width: 576px) {
+  /** pendahuluan */
+  #pendahuluan .judul h1 {
+    font-size: 1.5rem;
+  }
+
+  /** content */
+  #pendahuluan .container .content h1 {
+    font-size: 1.2rem;
+  }
+  #pendahuluan .container .content p {
+    font-size: 1rem;
+  }
+  #pendahuluan .container .content video {
+    width: 100%;
+  }
+  #pendahuluan .container .content .article .img img {
+    width: 100%;
+  }
+
+  /** navigation */
+  #pendahuluan .next-back a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+  }
+}

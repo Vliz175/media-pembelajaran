@@ -121,6 +121,10 @@ footer {
   section#nav .menu {
     width: 50vw;
   }
+
+  section#nav .menu ul li a {
+    font-size: 1.4rem;
+  }
 }
 
 /*? Mobile view  */
@@ -144,5 +148,8 @@ footer {
   }
   section#nav .menu .close {
     margin-right: 2rem;
+  }
+  section#nav .menu ul li a {
+    font-size: 1rem;
   }
 }

@@ -1,0 +1,63 @@
+/** footer */
+footer {
+  min-height: 50vh;
+  background-color: #e6e6fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer .anggota {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+footer .anggota i {
+  font-size: 1.2rem;
+}
+
+footer .anggota a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+footer .anggota a:hover {
+  color: #918598;
+}
+
+/*? Tablet view */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  footer .anggota {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 0;
+    height: 50vh;
+  }
+  footer .anggota a,
+  footer .anggota strong,
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/*? Mobile view */
+@media screen and (max-width: 576px) {
+  footer .anggota {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 0;
+    height: 60vh;
+  }
+  footer .anggota a,
+  footer .anggota strong,
+  h3 {
+    font-size: 0.9rem;
+  }
+}

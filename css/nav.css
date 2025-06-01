@@ -109,12 +109,6 @@ section#nav .menu #close {
   transform: translatex(100%);
 }
 
-/** footer */
-footer {
-  min-height: 50vh;
-  background-color: #b3adad;
-}
-
 /*? Tablet view  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /** navbar */
